@@ -6,14 +6,14 @@ Realm Manager
 
 .. _realm_manager.representation:
 
-@Realm Class
+Realm Class
 #############
 
 The class ``Realm`` is a
 `Realm Representation  <https://www.keycloak.org/docs-api/5.0/rest-api/index.html#_realmrepresentation>`_.
 
 .. rst-class:: table
-.. list-table:: for specifying which namespace and source file
+.. list-table:: for specifying which namespace and source file of Realm
     :name: appendixes.annotations.covers.tables.annotations
     :header-rows: 1
 
@@ -127,7 +127,7 @@ Usage
 
 .. code-block:: php
 
-    public function delete(string $realmName) : Realm
+    public function delete(string $realmName)
     {
         try {
             $this->admin->realms()->delete($realmName);

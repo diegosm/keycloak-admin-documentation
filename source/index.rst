@@ -18,6 +18,7 @@ so many of this concepts can be learned on their API.
    client_scopes_manager
    roles_manager
    users_manager
+   protocol_mappers
 
 Indices and tables
 ==================
