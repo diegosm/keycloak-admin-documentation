@@ -15,6 +15,9 @@ so many of this concepts can be learned on their API.
    usage
    realm_manager
    client_manager
+   client_scopes_manager
+   roles_manager
+   users_manager
 
 Indices and tables
 ==================
