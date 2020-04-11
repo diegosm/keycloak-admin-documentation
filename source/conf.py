@@ -25,6 +25,9 @@ author = 'Diego Mota'
 release = 'v1.5'
 version = 'v1.5'
 
+# The master toctree document.
+master_doc = 'index'
+
 
 # -- General configuration ---------------------------------------------------
 
