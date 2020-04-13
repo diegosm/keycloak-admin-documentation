@@ -45,7 +45,7 @@ Usage
             ->protocolMappers('myClientId')
             ->list();
 
-        foreach ($collectionOfProtocol Mappers as $realm) {
+        foreach ($collectionOfProtocolMappers as $realm) {
             var_dump($realm->getProtocol Mapper());
         }
     }
