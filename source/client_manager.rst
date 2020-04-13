@@ -40,8 +40,8 @@ Usage
     {
         $collectionOfClients = $this->admin->clients('my-realm')->list();
 
-        foreach ($collectionOfClients as $realm) {
-            var_dump($realm->getClient());
+        foreach ($collectionOfClients as $client) {
+            var_dump($client->getClient());
         }
     }
 
@@ -66,7 +66,7 @@ Usage
             'name' => $name
         ];
 
-        $realm = $this->admin->clients('my-realm')->createFromArray($myClient)->save();
+        $client = $this->admin->clients('my-realm')->createFromArray($myClient)->save();
     }
 
 
