@@ -210,3 +210,26 @@ Check :ref:`protocol_mappers`. chapter.
 
         // do something cool
     }
+
+
+
+
+.. _client_manager.roles:
+
+Roles
+##########################
+
+This is a manager for client roles manager.
+Check :ref:`roles_manager`. chapter.
+
+.. code-block:: php
+
+    public function roles(string $idOfClient)
+    {
+        $collectionOfClientRoles = $this->admin
+            ->clients('my-realm')
+            ->roles($idOfClient)
+            ->list();
+
+        // do something cool
+    }

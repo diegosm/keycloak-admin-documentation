@@ -10,7 +10,8 @@ Role Class
 
 The class ``Role`` is a
 `Role Representation  <https://www.keycloak.org/docs-api/5.0/rest-api/index.html#_rolerepresentation>`_.
-To use Role Manager, you need to pass the Realm that you will work with.
+To use Role Manager, you need to pass the Realm that you will work with. You can also manager Client Roles too,
+check Client documentation.
 
 .. rst-class:: table
 .. list-table:: for specifying which namespace and source file of Role scope
